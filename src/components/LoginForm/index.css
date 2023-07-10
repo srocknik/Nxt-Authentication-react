@@ -1,0 +1,102 @@
+/* Write your CSS code here */
+* {
+  font-family: roboto;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bg-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.small-logo-image {
+  height: 50px;
+}
+.large-logo-image {
+  display: none;
+}
+.login-image {
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-container {
+  width: 100%;
+}
+.user-input-label {
+  align-self: flex-start;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 0px;
+  padding-left: 0px;
+}
+.user-input {
+  margin-top: 5px;
+  width: 100%;
+  height: 45px;
+  background-color: #d7dfe9;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.login-btn {
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding-right: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    background-color: #d7dfe9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  .small-logo-image {
+    display: none;
+  }
+  .large-logo-image {
+    display: block;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .login-image {
+    height: 300px;
+  }
+  .form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+}
+.warning {
+  color: red;
+  font-size: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
